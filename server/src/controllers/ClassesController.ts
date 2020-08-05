@@ -5,7 +5,7 @@ import convertHourToMinutes from '../utils/convertHourToMinuts';
 
 
 interface ScheduleItem {
-  wheek_day: number;
+  week_day: number;
   from: string;
   to: string;
 }
@@ -77,7 +77,7 @@ export default class ClassesController {
       const classSchedule = schedule.map((scheduleItem: ScheduleItem) => {
         return {
           class_id,
-          week_day: scheduleItem.wheek_day,
+          week_day: scheduleItem.week_day,
           from: convertHourToMinutes(scheduleItem.from),
           to: convertHourToMinutes(scheduleItem.to),
         }
