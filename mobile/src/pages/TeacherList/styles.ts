@@ -19,8 +19,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
 
-  inputBlock: {
-    width: '48%',
+  inputBlock1: {
+    width: '56%',
+  },
+
+  inputBlock2: {
+    width: '40%',
   },
 
   input: {
@@ -40,7 +44,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-
   },
 
   submitButtonText: {
